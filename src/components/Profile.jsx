@@ -4,6 +4,7 @@ import {Parallax, ParallaxLayer} from "@react-spring/parallax";
 import { useSpring, animated } from 'react-spring'
 import {blue} from "@mui/material/colors";
 import ReactRotatingText from "react-rotating-text/lib/ReactRotatingText";
+import ParticleBackground from "./ParticleBackground";
 
 const Profile = (props) => {
     const skills = ['Software engineer', 'Machine learning lover', 'IOT enthusiast', 'Music Producer']
