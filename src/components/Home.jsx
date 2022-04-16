@@ -22,6 +22,7 @@ const Home = (props) => {
                         minHeight: 400,
                     }}>
                         <Grid item xs={12} md={8} sx={{
+                            padding: 2
                         }}>
                             <Profile/>
                         </Grid>
